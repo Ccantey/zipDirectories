@@ -2,10 +2,10 @@ import os
 import zipfile
 
 """
-Run this script inside subdirectory (house/county)
+Run this script inside subdirectory (root1/root2)
 in order to use relative paths... ie, if we run at root level,
-the zipped file will be Aitkin.zip -> DDP Test/county/Aitkin/all the pdfs..
-This way it will be Aitkin.zip -> Aitkin/all the pdfs...
+the zipped file will be folder1.zip -> C:\\root1\\folder1\\all the filess..
+This way it will be folder1.zip -> folder1\\all the filess..
 """
 
 
