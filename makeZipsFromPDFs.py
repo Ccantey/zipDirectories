@@ -8,10 +8,6 @@ the zipped file will be folder1.zip -> C:\\root1\\folder1\\all the filess..
 This way it will be folder1.zip -> folder1\\all the filess..
 """
 
-
-
-
-####Step 3: zip up folders
 def zipdir(path, ziph):
     # ziph is zipfile handle
     for root, dirs, files in os.walk(path):
@@ -22,7 +18,6 @@ def zipdir(path, ziph):
 
 ## you could add both/all root directories here, but if we place this script in the working directory, it will zip them to that directory with relative paths
 ## so change the next variable to the appropriate directory
-            
 folders_to_zip = [r"D:\\DDP Test\\county"]
 for folder in folders_to_zip:
     #print("processing: " + folder)
